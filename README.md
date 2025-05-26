@@ -19,7 +19,7 @@ A tool for compressing large datasets and uploading them to iRODS using ibridges
 - Windows operating system
 - 7-Zip with zstd support (7-Zip-Zstandard)
 - Python 3.x
-- ibridges
+- ibridges (in PATH)
 
 ## Installation
 
