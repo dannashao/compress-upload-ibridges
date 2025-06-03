@@ -79,6 +79,7 @@ If ibridges fails, try these steps:
 
 
 ## iRODS Configuration Environment File (irods_env.json) Example:
+You can get this file from the [YODA portal](https://science.yoda.uu.nl/user/data_transfer)
 
 ```json
 {
