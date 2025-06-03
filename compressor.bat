@@ -13,7 +13,7 @@ set "FOLDER=G:\SAI2"
 set "OUTPUT_DIR=G:\"
 set "REMOTE_PATH=/nluu6p/home/research-me-test/SAI2"
 
-set "SPLIT=1m"
+set "SPLIT=8192m"
 
 :: 7z.exe location (Must use 7-zip with zstd!)
 set "ZIP=C:\Program Files\7-Zip-Zstandard\7z.exe"
