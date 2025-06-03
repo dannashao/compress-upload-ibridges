@@ -6,11 +6,11 @@ A tool for compressing large datasets and uploading them to iRODS using ibridges
 
 - Compresses files into 7z archives using zstd (and other algorithms possible) compression
 - Configurable split size for large archives
-- Handles .tar files (source output from PSI machine) and other files separately
 - Generates and verifies SHA256 checksums
 - Uploads to iRODS with automatic checksum verification
 - Off-peak hour uploads to reduce server pressure
 - UNC paths and long file paths supported
+- **Handles .tar files (source output from PSI machine) and other files separately** (Note: This means .tar files in the **root directory** will be compressed to a separated folder /source, and all the other files will be compressed to /exported. If you are using this script for purposes other than PSI structured files, you will get an empty /source folder and all the files under /exported with original folder directory remained)
 - (Constructing) Email after compression finished
 
 
@@ -19,7 +19,7 @@ A tool for compressing large datasets and uploading them to iRODS using ibridges
 - Windows operating system
 - 7-Zip with zstd support (7-Zip-Zstandard)
 - Python 3.x
-- ibridges (in PATH)
+- ibridges
 
 ## Installation
 
